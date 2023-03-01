@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/91628/Documents/Unity/PingPong
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57140
+Successfully changed project path to: C:/Users/91628/Documents/Unity/PingPong
+C:/Users/91628/Documents/Unity/PingPong
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 68.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/91628/Documents/Unity/PingPong/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8056 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004518 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 66.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (526ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004872 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\91628\Documents\Unity\PingPong\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\91628\Documents\Unity\PingPong\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3857.
+Memory consumption went from 118.9 MB to 118.7 MB.
+Total: 2.610500 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.226000 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17994.103950 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Replay.png
+  artifactKey: Guid(564138977807e704795beaa8f3efb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Replay.png using Guid(564138977807e704795beaa8f3efb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85524fc9e3cb7a114c4ed60d395d78') in 0.151529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300494 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/rewards.png
+  artifactKey: Guid(31da33b4ebfec544088aa2a7f3b38948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/rewards.png using Guid(31da33b4ebfec544088aa2a7f3b38948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0001509afe56abc68bce36f698207532') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.301999 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Ribbions/Ribbion.png
+  artifactKey: Guid(9e62b6e419228684082cb3a4bf9676ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Ribbions/Ribbion.png using Guid(9e62b6e419228684082cb3a4bf9676ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2009af14810b388a82b473a16a1a1c') in 0.016971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Ribbions/Ribbion-3.png
+  artifactKey: Guid(53a21b9829de27d489e1503acea047dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Ribbions/Ribbion-3.png using Guid(53a21b9829de27d489e1503acea047dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2fe64d314c4f0d0c74ae0f4e244abd') in 0.011467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071084 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Right.png
+  artifactKey: Guid(bdbcf334856e67b47982f44490685d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Right.png using Guid(bdbcf334856e67b47982f44490685d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa587b421a9e8a9fca0f6b0c3a9b0aad') in 0.015790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/Right.png
+  artifactKey: Guid(4d875b537fb101742aae0286e347eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/Right.png using Guid(4d875b537fb101742aae0286e347eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d842bb5dd0d73b4054d92fabe6a6c') in 0.016976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314263 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 5/Right.png
+  artifactKey: Guid(4e7a7e41dd6c8ab40afc677f067209bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 5/Right.png using Guid(4e7a7e41dd6c8ab40afc677f067209bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda76e117392c5ebe4a671516f2b5aca') in 0.018030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.361506 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Settings.png
+  artifactKey: Guid(eb45cdccbd2a2c24c89ca239b838acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Settings.png using Guid(eb45cdccbd2a2c24c89ca239b838acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a18cdcbd3e50441921b5c564b4632ad') in 0.011959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/settings.png
+  artifactKey: Guid(b2b9252b2c2f5274ea5ab668d886916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/settings.png using Guid(b2b9252b2c2f5274ea5ab668d886916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00911c893f4e87c87b219e76af98c9c') in 0.017350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.290721 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Settings-2.png
+  artifactKey: Guid(513aa5e0bc735bd4d944a3f9d9aacbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Settings-2.png using Guid(513aa5e0bc735bd4d944a3f9d9aacbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6684365dacbc3021d709356806e3ef') in 0.021099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073440 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Settings-2.png
+  artifactKey: Guid(44d3729f18ab0d945a80d61c2a2f65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Settings-2.png using Guid(44d3729f18ab0d945a80d61c2a2f65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa72301616fefa16563091be3ef9e12') in 0.012367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark00.png
+  artifactKey: Guid(e174592c8e08c9740b7181b1d8b72c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark00.png using Guid(e174592c8e08c9740b7181b1d8b72c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eca18f6e9395aab998299e528cd61c0') in 0.013955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266807 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png
+  artifactKey: Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png using Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76252f640bad2a870744a7e7f49a52') in 0.014700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png
+  artifactKey: Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png using Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596f4e3d04495c910f343b62a8e2d95') in 0.019555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015438 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png
+  artifactKey: Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png using Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b306a08ddee6064fa577438a4da93') in 0.015212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight03.png
+  artifactKey: Guid(d034e08b2788726409842f1003c1336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight03.png using Guid(d034e08b2788726409842f1003c1336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3abf0f6bbd4c4bfe3c78f350068dbc') in 0.013334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042979 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Share.png
+  artifactKey: Guid(d159d7b8919b62347a7f56c526617788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/Share.png using Guid(d159d7b8919b62347a7f56c526617788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc212b988b12457f05151c541840868') in 0.010931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 1/Sharee.png
+  artifactKey: Guid(421fa139e1ae88c4c870a6007cd20534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 1/Sharee.png using Guid(421fa139e1ae88c4c870a6007cd20534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6083cf6e0dc62c1925cb63bd9ad1b4') in 0.017400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530383 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 3/Sharee.png
+  artifactKey: Guid(1b4ddfad1f0565f47b89bb3fb41a5a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 3/Sharee.png using Guid(1b4ddfad1f0565f47b89bb3fb41a5a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90afce98c8a51e7256d420937e2e837f') in 0.019854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Sharee.png
+  artifactKey: Guid(ff77daac9206d4a4a9719ec3cfbf9ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Sharee.png using Guid(ff77daac9206d4a4a9719ec3cfbf9ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fa3d8832e99422994437ba1ffce301') in 0.021419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014240 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Shuffle.png
+  artifactKey: Guid(d02dda981ea155c42bff7500463fedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Shuffle.png using Guid(d02dda981ea155c42bff7500463fedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e4f5dd7472aa3718055f4de217a566') in 0.023915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 1/Shuffle.png
+  artifactKey: Guid(0ca6f1a86047e204aac3f0f3c4a17bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 1/Shuffle.png using Guid(0ca6f1a86047e204aac3f0f3c4a17bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed921f10d649fecb144e7ac55ba27011') in 0.024536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212107 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/Shuffle.png
+  artifactKey: Guid(e07dcb207e51cb543a861e6ed9db4fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 4/Shuffle.png using Guid(e07dcb207e51cb543a861e6ed9db4fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4881104e82c1f9f8d71fadafb78d88') in 0.026365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034399 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Props/smile.png
+  artifactKey: Guid(bc9146db83aa8754bbec2e8a3cfa9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Props/smile.png using Guid(bc9146db83aa8754bbec2e8a3cfa9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f0fc85bf92974d54f18f1561f16936') in 0.020710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246954 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 5/Sound-Off.png
+  artifactKey: Guid(64228fd48bd1df14b9a46844eac2e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 5/Sound-Off.png using Guid(64228fd48bd1df14b9a46844eac2e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4925ea8d4e63bba8e812cc4ddc3b4e1') in 0.018013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351328 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/soundon.png
+  artifactKey: Guid(8d25691f709e72342a1de91db49faef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/White icon/soundon.png using Guid(8d25691f709e72342a1de91db49faef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea75848b70bf38cffe7d5b6029599627') in 0.011753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 6/Soundon-.png
+  artifactKey: Guid(35bfd6adebcefa34f8fcece09f84f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 6/Soundon-.png using Guid(35bfd6adebcefa34f8fcece09f84f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca639f4148619441397f13a2a932c81') in 0.037605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062644 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 3/Soundon-.png
+  artifactKey: Guid(d4a54d31f0ce35e4386491c4022170f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 3/Soundon-.png using Guid(d4a54d31f0ce35e4386491c4022170f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee8c45b8d48de9478beefbfa4392ab') in 0.016790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266010 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Spin Wheel/Spin wheel 5/Spinn-wheel.png
+  artifactKey: Guid(99408cafb8419a547a1925852df10bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Spin Wheel/Spin wheel 5/Spinn-wheel.png using Guid(99408cafb8419a547a1925852df10bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f873894b3d169e4fa9a74482a415c6fc') in 0.060159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279907 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Props/Star-5.png
+  artifactKey: Guid(baebc9331b192bb4ebdaae627362f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Props/Star-5.png using Guid(baebc9331b192bb4ebdaae627362f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff6bf1dff1cc77a47df7fd26892199') in 0.018461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Props/Star-wing.png
+  artifactKey: Guid(28ddd78f0c4bea044b192ca0d1482c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Props/Star-wing.png using Guid(28ddd78f0c4bea044b192ca0d1482c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b63e13d44125f2b39b7365c9f812825') in 0.016174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028453 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png
+  artifactKey: Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png using Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a14b194dd7caadfcc80c4c9f2d594') in 0.013066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
+  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc8e00027bf6c9dad7a8f58547353b') in 0.011626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262381 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png
+  artifactKey: Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png using Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa10bf10a1dd2bec342e623fc58737d') in 0.014650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036969 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Sub.png
+  artifactKey: Guid(4db66ad32f7f9e14484497d3c337c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Awesome Game UI pack 14/Button 2/Sub.png using Guid(4db66ad32f7f9e14484497d3c337c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c578814061515e9528f612bffdfab8e0') in 0.033010 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
